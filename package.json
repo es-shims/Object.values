@@ -30,7 +30,8 @@
 		"object",
 		"keys",
 		"entries",
-		"polyfill"
+		"polyfill",
+		"es-shim API"
 	],
 	"dependencies": {
 		"define-properties": "^1.1.1",
