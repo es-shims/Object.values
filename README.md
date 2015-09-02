@@ -43,7 +43,7 @@ assert.deepEqual(Object.values(obj), expected);
 Simply clone the repo, `npm install`, and run `npm test`
 
 [package-url]: https://npmjs.com/package/object.values
-[npm-version-svg]: http://vb.teelaun.ch/es-shims/Object.values.svg
+[npm-version-svg]: http://versionbadg.es/es-shims/Object.values.svg
 [travis-svg]: https://travis-ci.org/es-shims/Object.values.svg
 [travis-url]: https://travis-ci.org/es-shims/Object.values
 [deps-svg]: https://david-dm.org/es-shims/Object.values.svg
