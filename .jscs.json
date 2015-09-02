@@ -109,10 +109,6 @@
 
 	"requirePaddingNewLinesBeforeExport": true,
 
-	"validateNewlineAfterArrayElements": {
-		"maximum": 3
-	},
-
 	"requirePaddingNewLinesAfterUseStrict": true,
 
 	"disallowArrowFunctions": true,

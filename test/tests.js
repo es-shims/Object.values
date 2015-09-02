@@ -44,13 +44,14 @@ module.exports = function (values, t) {
 		st.end();
 	});
 
-	t.test('Symbols are omitted', { skip: !hasSymbols }, function (st) {
+	t.test('Symbol properties are omitted', { skip: !hasSymbols }, function (st) {
 		var object = { a: a, b: b, c: c };
 		var enumSym = Symbol('enum');
 		var nonEnumSym = Symbol('non enum');
 		object[enumSym] = enumSym;
+		object.d = enumSym;
 		Object.defineProperty(object, nonEnumSym, { enumerable: false, value: nonEnumSym });
-		st.deepEqual(values(object), [a, b, c], 'symbols are omitted');
+		st.deepEqual(values(object), [a, b, c, enumSym], 'symbol properties are omitted');
 		st.end();
 	});
 };
