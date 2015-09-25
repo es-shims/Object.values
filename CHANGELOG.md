@@ -1,3 +1,7 @@
+1.0.2 / 2015-09-25
+=================
+  * [Fix] Not-yet-visited keys deleted on a `[[Get]]` must not show up in the output (#1)
+
 1.0.1 / 2015-09-21
 =================
   * [Docs] update version badge URL
