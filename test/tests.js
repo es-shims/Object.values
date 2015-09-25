@@ -2,6 +2,7 @@
 
 var keys = require('object-keys');
 var map = require('array-map');
+var define = require('define-properties');
 
 var hasSymbols = typeof Symbol === 'function' && typeof Symbol() === 'symbol';
 
@@ -52,6 +53,18 @@ module.exports = function (values, t) {
 		object.d = enumSym;
 		Object.defineProperty(object, nonEnumSym, { enumerable: false, value: nonEnumSym });
 		st.deepEqual(values(object), [a, b, c, enumSym], 'symbol properties are omitted');
+		st.end();
+	});
+
+	t.test('not-yet-visited keys deleted on [[Get]] must not show up in output', { skip: !define.supportsDescriptors }, function (st) {
+		var o = { a: 1, b: 2, c: 3 };
+		Object.defineProperty(o, 'a', {
+			get: function () {
+				delete this.b;
+				return 1;
+			}
+		});
+		st.deepEqual(values(o), [1, 3], 'when "b" is deleted prior to being visited, it should not show up');
 		st.end();
 	});
 };
