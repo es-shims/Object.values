@@ -8,6 +8,8 @@ var defineProperties = require('define-properties');
 var isEnumerable = Object.prototype.propertyIsEnumerable;
 var functionsHaveNames = function f() {}.name === 'f';
 
+var runTests = require('./tests');
+
 test('shimmed', function (t) {
 	t.equal(Object.values.length, 1, 'Object.values has a length of 1');
 	t.test('Function name', { skip: !functionsHaveNames }, function (st) {
@@ -28,7 +30,7 @@ test('shimmed', function (t) {
 		st.end();
 	});
 
-	require('./tests')(Object.values, t);
+	runTests(Object.values, t);
 
 	t.end();
 });

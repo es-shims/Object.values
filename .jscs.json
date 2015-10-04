@@ -27,6 +27,8 @@
 		"WithStatement"
 	],
 
+	"requireObjectKeysOnNewLine": false,
+
 	"requireSpacesInAnonymousFunctionExpression": { "beforeOpeningRoundBrace": true, "beforeOpeningCurlyBrace": true },
 	"requireSpacesInNamedFunctionExpression": { "beforeOpeningCurlyBrace": true },
 	"disallowSpacesInNamedFunctionExpression": { "beforeOpeningRoundBrace": true },
@@ -108,6 +110,9 @@
 	},
 
 	"requirePaddingNewLinesBeforeExport": true,
+
+	"validateNewlineAfterArrayElements": {
+	},
 
 	"requirePaddingNewLinesAfterUseStrict": true,
 
