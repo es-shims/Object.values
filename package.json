@@ -1,6 +1,6 @@
 {
 	"name": "object.values",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"author": "Jordan Harband",
 	"description": "ES7 spec-compliant Object.values shim.",
 	"license": "MIT",

@@ -1,3 +1,7 @@
+1.0.3 / 2015-10-06
+=================
+  * [Fix] Not-yet-visited keys made non-enumerable on a `[[Get]]` must not show up in the output (https://github.com/ljharb/proposal-object-values-entries/issues/5)
+
 1.0.2 / 2015-09-25
 =================
   * [Fix] Not-yet-visited keys deleted on a `[[Get]]` must not show up in the output (#1)
