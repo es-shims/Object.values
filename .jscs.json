@@ -20,7 +20,6 @@
 
 	"disallowNodeTypes": [
 		"DebuggerStatement",
-		"ForInStatement",
 		"LabeledStatement",
 		"SwitchCase",
 		"SwitchStatement",
