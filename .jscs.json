@@ -119,6 +119,12 @@
 
 	"disallowMultiLineTernary": true,
 
-	"validateOrderInObjectKeys": "asc-insensitive"
+	"validateOrderInObjectKeys": "asc-insensitive",
+
+	"disallowIdenticalDestructuringNames": true,
+
+	"disallowNestedTernaries": { "maxLevel": 1 },
+
+	"requireSpaceAfterComma": true
 }
 
