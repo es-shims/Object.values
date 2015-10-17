@@ -8,6 +8,7 @@
 		"max-statements": [2, 12],
 		"new-cap": [2, { "capIsNewExceptions": ["RequireObjectCoercible"] }],
 		"no-invalid-this": [1],
+		"no-magic-numbers": [0],
 		"no-restricted-syntax": [2, "BreakStatement", "ContinueStatement", "DebuggerStatement", "LabeledStatement", "WithStatement"]
 	}
 }
