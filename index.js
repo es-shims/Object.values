@@ -6,10 +6,12 @@ var implementation = require('./implementation');
 var getPolyfill = require('./polyfill');
 var shim = require('./shim');
 
-define(implementation, {
+var polyfill = getPolyfill();
+
+define(polyfill, {
 	getPolyfill: getPolyfill,
 	implementation: implementation,
 	shim: shim
 });
 
-module.exports = implementation;
+module.exports = polyfill;

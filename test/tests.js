@@ -1,5 +1,7 @@
 'use strict';
 
+/* global Symbol */
+
 var keys = require('object-keys');
 var map = require('array-map');
 var define = require('define-properties');

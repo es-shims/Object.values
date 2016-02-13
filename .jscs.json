@@ -134,6 +134,24 @@
 
 	"requireSpacesInGenerator": {
 		"afterStar": true
+	},
+
+	"disallowSpacesInGenerator": {
+		"beforeStar": true
+	},
+
+	"disallowVar": false,
+
+	"requireArrayDestructuring": false,
+
+	"requireEnhancedObjectLiterals": false,
+
+	"requireObjectDestructuring": false,
+
+	"requireEarlyReturn": false,
+
+	"requireCapitalizedConstructorsNew": {
+		"allExcept": ["Function", "String", "Object", "Symbol", "Number", "Date", "RegExp", "Error", "Boolean", "Array"]
 	}
 }
 
