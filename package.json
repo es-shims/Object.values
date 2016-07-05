@@ -38,7 +38,7 @@
 	],
 	"dependencies": {
 		"define-properties": "^1.1.2",
-		"es-abstract": "^1.5.0",
+		"es-abstract": "^1.5.1",
 		"has": "^1.0.1",
 		"function-bind": "^1.1.0"
 	},
