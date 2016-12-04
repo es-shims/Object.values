@@ -10,9 +10,9 @@
 
 [![browser support][testling-svg]][testling-url]
 
-An ES7 spec-compliant `Object.values` shim. Invoke its "shim" method to shim `Object.values` if it is unavailable or noncompliant.
+An ES2017 spec-compliant `Object.values` shim. Invoke its "shim" method to shim `Object.values` if it is unavailable or noncompliant.
 
-This package implements the [es-shim API](https://github.com/es-shims/api) interface. It works in an ES3-supported environment and complies with the [proposed spec](https://github.com/ljharb/proposal-object-values-entries/blob/master/spec.md#objectvalues-o-).
+This package implements the [es-shim API](https://github.com/es-shims/api) interface. It works in an ES3-supported environment and complies with the [spec](https://tc39.github.io/ecma262/#sec-object.values).
 
 Most common usage:
 ```js
