@@ -6,7 +6,7 @@ var keys = require('object-keys');
 var map = require('array-map');
 var define = require('define-properties');
 
-var hasSymbols = typeof Symbol === 'function' && typeof Symbol() === 'symbol';
+var hasSymbols = typeof Symbol === 'function' && typeof Symbol('foo') === 'symbol';
 
 module.exports = function (values, t) {
 	var a = {};
