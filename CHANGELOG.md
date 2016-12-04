@@ -1,3 +1,10 @@
+1.0.4 / 2016-12-04
+=================
+  * [Docs] update to reflect ES2017 inclusion
+  * [Deps] update `es-abstract`, `function-bind`, `define-properties`
+  * [Dev Deps] update `tape`, `jscs`, `nsp`, `eslint`, `@ljharb/eslint-config`
+  * [Tests] up to `node` `v7.2`, `v6.9`, `v4.6`; improve test matrix.
+
 1.0.3 / 2015-10-06
 =================
   * [Fix] Not-yet-visited keys made non-enumerable on a `[[Get]]` must not show up in the output (https://github.com/ljharb/proposal-object-values-entries/issues/5)
