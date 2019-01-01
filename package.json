@@ -14,9 +14,7 @@
 		"test:module": "node test/index.js",
 		"coverage": "covert test/*.js",
 		"coverage-quiet": "covert test/*.js --quiet",
-		"lint": "npm run --silent jscs && npm run --silent eslint",
-		"eslint": "eslint test/*.js *.js",
-		"jscs": "jscs test/*.js *.js",
+		"lint": "eslint .",
 		"security": "nsp check"
 	},
 	"repository": {
@@ -50,7 +48,6 @@
 		"array-map": "^0.0.0",
 		"covert": "^1.1.0",
 		"eslint": "^5.8.0",
-		"jscs": "^3.0.7",
 		"nsp": "^3.2.1",
 		"object-keys": "^1.0.12",
 		"tape": "^4.9.1"
