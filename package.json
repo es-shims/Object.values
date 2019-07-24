@@ -49,10 +49,10 @@
 		"@ljharb/eslint-config": "^13.1.1",
 		"array-map": "^0.0.0",
 		"covert": "^1.1.1",
-		"eslint": "^5.11.1",
+		"eslint": "^5.16.0",
 		"functions-have-names": "^1.1.0",
-		"object-keys": "^1.0.12",
-		"tape": "^4.9.2"
+		"object-keys": "^1.1.1",
+		"tape": "^4.11.0"
 	},
 	"testling": {
 		"files": "test/index.js",
