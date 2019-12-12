@@ -1,7 +1,10 @@
 {
 	"name": "object.values",
 	"version": "1.1.0",
-	"author": "Jordan Harband",
+	"author": "Jordan Harband <ljharb@gmail.com>",
+	"funding": {
+		"url": "https://github.com/sponsors/ljharb"
+	},
 	"description": "ES2017 spec-compliant Object.values shim.",
 	"license": "MIT",
 	"main": "index.js",
