@@ -53,7 +53,7 @@
 		"functions-have-names": "^1.2.1",
 		"object-keys": "^1.1.1",
 		"safe-publish-latest": "^1.1.4",
-		"tape": "^5.0.0-next.4"
+		"tape": "^5.0.0-next.5"
 	},
 	"testling": {
 		"files": "test/index.js",
