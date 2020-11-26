@@ -13,7 +13,7 @@
 		"pretest": "npm run lint",
 		"test": "npm run tests-only",
 		"posttest": "npx aud --production",
-		"tests-only": "es-shim-api && npm run test:shimmed && npm run test:module",
+		"tests-only": "es-shim-api --bound && npm run test:shimmed && npm run test:module",
 		"test:shimmed": "node test/shimmed",
 		"test:module": "node test/index",
 		"coverage": "covert test/*.js",
