@@ -1,7 +1,7 @@
 'use strict';
 
 var implementation = require('../implementation');
-var callBind = require('es-abstract/helpers/callBind');
+var callBind = require('call-bind');
 var test = require('tape');
 var hasStrictMode = require('has-strict-mode')();
 var runTests = require('./tests');
