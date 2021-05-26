@@ -16,7 +16,9 @@
 		"posttest": "npx aud --production",
 		"tests-only": "nyc tape 'test/**/*.js'",
 		"lint": "eslint .",
-		"postlint": "es-shim-api --bound"
+		"postlint": "es-shim-api --bound",
+		"version": "auto-changelog && git add CHANGELOG.md",
+		"postversion": "auto-changelog && git add CHANGELOG.md && git commit --no-edit --amend && git tag -f \"v$(node -e \"console.log(require('./package.json').version)\")\""
 	},
 	"repository": {
 		"type": "git",
@@ -47,6 +49,7 @@
 		"@ljharb/eslint-config": "^17.6.0",
 		"array.prototype.map": "^1.0.3",
 		"aud": "^1.1.5",
+		"auto-changelog": "^2.3.0",
 		"eslint": "^7.27.0",
 		"functions-have-names": "^1.2.2",
 		"has-strict-mode": "^1.0.1",
@@ -75,5 +78,13 @@
 	},
 	"engines": {
 		"node": ">= 0.4"
+	},
+	"auto-changelog": {
+		"output": "CHANGELOG.md",
+		"template": "keepachangelog",
+		"unreleased": false,
+		"commitLimit": false,
+		"backfillLimit": false,
+		"hideCredit": true
 	}
 }
