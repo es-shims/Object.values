@@ -5,6 +5,23 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.1.4](https://github.com/ljharb/Object.values/compare/v1.1.3...v1.1.4) - 2021-05-26
+
+### Commits
+
+- [meta] add `auto-changelog` [`01ee3ac`](https://github.com/ljharb/Object.values/commit/01ee3acb5c767559ce37a3b24bbd30253eae280c)
+- [actions] use `node/install` instead of `node/run`; use `codecov` action [`f403cba`](https://github.com/ljharb/Object.values/commit/f403cba8852664d82bbf744cd36ad019742a14b5)
+- [readme] add actions and codecov badges [`bee5cd2`](https://github.com/ljharb/Object.values/commit/bee5cd21770c9dffa874a2d18d728cf8478e3e7d)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `aud`; switch `array-map` for `array.prototype.map` [`8c49dbe`](https://github.com/ljharb/Object.values/commit/8c49dbeed8e3312081d88848abe6bb04383d46ae)
+- [Refactor] `propertyIsEnumerable` checks own-ness; remove `has` [`3cb48cf`](https://github.com/ljharb/Object.values/commit/3cb48cf8655504fee0d226036e9582be0fd3fbb0)
+- [actions] update workflows [`eb1d757`](https://github.com/ljharb/Object.values/commit/eb1d7574489b86d5d276cf58e3faf77271d0a6f7)
+- [Dev Deps] update `eslint`, `tape` [`0abdb2d`](https://github.com/ljharb/Object.values/commit/0abdb2d576aba1074075c1fb25de01ef943aaa77)
+- [Tests] increase coverage [`8ca19a3`](https://github.com/ljharb/Object.values/commit/8ca19a3472a9e7883de91d4623fbbce978a0c535)
+- [meta] use `prepublishOnly` script for npm 7+ [`88998c8`](https://github.com/ljharb/Object.values/commit/88998c80f21c0aaf7a640ad14caa7b9c08aa1e7c)
+- [Deps] update `es-abstract` [`12515ab`](https://github.com/ljharb/Object.values/commit/12515ab54f055c42904caaadecce8d13edd673d8)
+- [Deps] update `es-abstract` [`3083ce7`](https://github.com/ljharb/Object.values/commit/3083ce7cd7263cb2570d894947c5d6a4f64feffa)
+- [meta] gitignore coverage output [`7aef22b`](https://github.com/ljharb/Object.values/commit/7aef22b2c623b756a3302c6df2265b69b1bb3e10)
+
 ## [v1.1.3](https://github.com/ljharb/Object.values/compare/v1.1.2...v1.1.3) - 2021-02-22
 
 ### Commits
