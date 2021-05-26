@@ -1,6 +1,5 @@
 'use strict';
 
-var has = require('has');
 var RequireObjectCoercible = require('es-abstract/2020/RequireObjectCoercible');
 var callBound = require('call-bind/callBound');
 
@@ -10,7 +9,7 @@ module.exports = function values(O) {
 	var obj = RequireObjectCoercible(O);
 	var vals = [];
 	for (var key in obj) {
-		if (has(obj, key) && $isEnumerable(obj, key)) {
+		if ($isEnumerable(obj, key)) { // checks own-ness as well
 			vals.push(obj[key]);
 		}
 	}
