@@ -41,9 +41,9 @@
 		"es-shim API"
 	],
 	"dependencies": {
-		"call-bind": "^1.0.2",
-		"define-properties": "^1.2.0",
-		"es-abstract": "^1.22.1"
+		"call-bind": "^1.0.7",
+		"define-properties": "^1.2.1",
+		"es-object-atoms": "^1.0.0"
 	},
 	"devDependencies": {
 		"@es-shims/api": "^2.4.2",
